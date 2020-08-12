@@ -14,5 +14,5 @@ function wrapAdjective(flair="*") {
 }
 
 const Calculator = {
-  
+  add: 
 }
