@@ -32,3 +32,5 @@ function actionApplyer(start, fns) {
   for (let i = 0; i < fns.length; i++) {
     start = fns[i](start);
   }
+    return start;
+}
