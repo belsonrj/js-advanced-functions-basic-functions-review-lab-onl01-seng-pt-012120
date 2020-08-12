@@ -7,9 +7,10 @@ function mondayWork(activity="go to the office") {
 }
 
 
-
 function wrapAdjective(flair="*") {
   return function(adj="special") {
     return `You are ${flair }${adj}${flair}!`;
   }
 }
+
+const = 
