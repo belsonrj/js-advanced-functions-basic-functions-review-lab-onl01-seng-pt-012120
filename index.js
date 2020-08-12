@@ -6,9 +6,10 @@ function mondayWork(activity="go to the office") {
   return(`This Monday, I will ${activity}.`)
 }
 
-function wrapAdjective(first="*") {
-  return function(second="special") {
-    return `You are ${second} ${first}.`
+
+
+function wrapAdjective(flair="*") {
+  return function(adj="special") {
+    return `You are ${flair }${adj}${flair}!`;
   }
-  let encouragingPromptFunction = wrapAdjective("!!!")
 }
